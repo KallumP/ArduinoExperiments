@@ -1,6 +1,6 @@
 #include <Servo.h>
 
-bool on = false;
+bool on = true;
 
 Servo s; 
 int servoPin = 9; //D9
@@ -8,7 +8,7 @@ int servoPin = 9; //D9
 const int buttonPin = 2;  //D2
 bool buttonPressed = false;
 
-int delayMs = 20;
+int delayMs = 5;
 int maxAngle = 40;
 
 void setup() {
